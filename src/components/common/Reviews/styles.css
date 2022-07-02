@@ -1,0 +1,97 @@
+.reviews {
+  margin-top: 20px;
+}
+
+.reviews-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.reviews-container {
+  margin-top: 40px;
+}
+
+.review-form-title {
+  font-size: 22px;
+}
+
+.review-form-textarea {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: 1px solid rgb(107, 114, 12);
+}
+
+.review-form-button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background: rgb(59, 130, 246);
+  border-radius: 8px;
+  color: white;
+}
+
+.review-form-button:hover:enabled {
+  cursor: pointer;
+  background: rgb(37, 99, 235);
+}
+
+.review-form-button:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.review-form-cancel-button {
+  margin-left: 10px;
+}
+
+.review {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.review-image-container {
+  margin-right: 12px;
+}
+
+.review-image-container img {
+  border-radius: 50px;
+}
+
+.review-right-part {
+  width: 100%;
+}
+
+.review-content {
+  display: flex;
+}
+
+.review-author {
+  margin-right: 8px;
+  font-size: 20px;
+  color: rgb(59, 130, 246);
+}
+
+.review-text {
+  font-size: 18px;
+}
+
+.review-actions {
+  display: flex;
+  font-size: 12px;
+  color: rgb(51, 51, 51);
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.review-action {
+  margin-right: 8px;
+}
+
+.review-action:hover {
+  text-decoration: underline;
+}
+
+.replies {
+  margin-top: 20px;
+}
